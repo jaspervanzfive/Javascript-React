@@ -1,0 +1,22 @@
+.gallery{
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    
+    text-align: center;
+    font-size: 3em;
+}
+
+img{
+    transition: all 0.5s;
+    width: 500px;
+    height: 300px;
+    margin:5px;
+}
+img:hover{
+    transform: scale(1.1);
+}
